@@ -18,6 +18,9 @@ else if(x==2){
 else if(x==3){
     ob.mul(a, b);
 }
+else if(x==4){
+    ob.div(a, b);
+}
 sc.close();
 }
 }
@@ -30,5 +33,8 @@ class functions{
     }
     void mul(int x, int y){
         System.out.println("multiplication = "+(x*y));
+    }
+    void div(int x, int y){
+        System.out.println("division = "+(x/y));
     }
 }
