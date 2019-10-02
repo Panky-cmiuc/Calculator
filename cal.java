@@ -10,9 +10,11 @@ int a=sc.nextInt();
 System.out.println("Enter value 2:");
 int b=sc.nextInt();
 if(x==1){
-ob.add(a, b);
+    ob.add(a, b);
 }
-
+else if(x==2){
+    ob.sub(a, b);
+}
 
 sc.close();
 }
@@ -20,5 +22,8 @@ sc.close();
 class functions{
     void add(int x, int y){
         System.out.println("addition = "+(x+y));
+    }
+    void sub(int x, int y){
+        System.out.println("subtraction = "+(x-y));
     }
 }
