@@ -15,7 +15,9 @@ if(x==1){
 else if(x==2){
     ob.sub(a, b);
 }
-
+else if(x==3){
+    ob.mul(a, b);
+}
 sc.close();
 }
 }
@@ -25,5 +27,8 @@ class functions{
     }
     void sub(int x, int y){
         System.out.println("subtraction = "+(x-y));
+    }
+    void mul(int x, int y){
+        System.out.println("multiplication = "+(x*y));
     }
 }
